@@ -11,7 +11,7 @@ while True:
     elif command == 'back':
         print(stack[-1])
     elif command == 'size':
-        print(stack)
+        print(len(stack))
     elif command == 'clear':
         stack.clear()
         print('ok')
